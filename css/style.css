@@ -1,11 +1,21 @@
+body{
+
+    margin:0;
+    padding:0;
+
+}
+
 h1{
     color:rgb(240, 147, 9);
     font-size: 4rem;
+    margin-right: 5rem;
 }
 
 .parrafo{
    color:blueviolet;
-   font-size: 2rem; 
+   font-size: 2rem;
+   border: solid 0.5rem black;
+   padding:1rem;
 }
 
 #logo{
@@ -16,5 +26,25 @@ header{
     background-color: aqua;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+nav{
+
+    border:solid 0.2rem black;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(191, 228, 217);
+    padding:0.4rem;
+    border-radius: 15px;
+    width: 30%;
+    text-align: center;
+    margin:0.5rem 0rem;
 }
