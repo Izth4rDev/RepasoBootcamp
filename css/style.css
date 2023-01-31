@@ -1,0 +1,20 @@
+h1{
+    color:rgb(240, 147, 9);
+    font-size: 4rem;
+}
+
+.parrafo{
+   color:blueviolet;
+   font-size: 2rem; 
+}
+
+#logo{
+    width:25%;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
